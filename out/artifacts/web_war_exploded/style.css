@@ -1,0 +1,62 @@
+html{
+    background-color: bisque;
+}
+body{
+    width: 98%;
+    margin: auto;
+    border: 1px black solid;
+}
+html, body{
+    overflow-x:hidden;
+}
+header{
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px black solid;
+}
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px white solid;
+}
+header a:hover{
+    color: darkblue;
+    background-color: #FFFFFF;
+}
+main{
+    background-color: #DDD;
+    font-size: 1em;
+}
+.question, .answer{
+    background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 4%;
+}
+.question{
+    font-weight: bold;
+}
+.sol{
+    border: black 1px solid;
+    padding: 2%;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+@media only screen and (min-width: 750px) {
+    main{
+        font-size: 1.2em;
+    }
+}
+

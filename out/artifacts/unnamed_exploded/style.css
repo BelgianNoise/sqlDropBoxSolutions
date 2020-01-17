@@ -1,0 +1,103 @@
+html{
+    background-color: bisque;
+}
+body{
+    width: 98%;
+    margin: auto;
+    border: 1px black solid;
+    background-color: #DDD;
+}
+html, body{
+    overflow-x:hidden;
+}
+header{
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px black solid;
+}
+header a{
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 1px white solid;
+}
+header a:hover{
+    color: darkblue;
+    background-color: #FFFFFF;
+}
+main{
+    background-color: #DDD;
+    font-size: 1em;
+}
+.question, .answer{
+    background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 4%;
+}
+.question{
+    font-weight: bold;
+}
+.sol{
+    border: black 1px solid;
+    padding: 2%;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+.error{
+    background-color: #cd9c9c;
+    color: darkred;
+    border: darkred 1px solid;
+}
+#cats a{
+    text-align: center;
+    display: block;
+    margin: 0;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
+    padding: 10px;
+}
+#cats a:hover{
+    background-color: white;
+    color: darkblue;
+}
+#cats{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+}
+form{
+    width:94%;
+    margin: 40px auto;
+    border: 1px black solid;
+    background-color: white;
+    padding: 2%;
+}
+#urll{
+    width: 100%;
+}
+@media only screen and (min-width: 750px) {
+    main{
+        font-size: 1.2em;
+    }
+    #cats{
+        grid-template-columns: 33.3333333% 33.333333333% 33.33333333%;
+    }
+}
+

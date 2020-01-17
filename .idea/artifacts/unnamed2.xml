@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="unnamed2">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed2</output-path>
+    <root id="archive" name="unnamed.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="00_sqlDropBoxSolutions" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="postgresql-42.2.5" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
