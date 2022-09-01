@@ -50,7 +50,7 @@ public class Solution {
     public void setQuestion(String question) {
         if(question == null || question.trim().isEmpty()){
             throw new IllegalArgumentException("Probleempie bij " +
-                    "de question ma nigga");
+                    "de question ma nan");
         }
         this.question = question;
     }
